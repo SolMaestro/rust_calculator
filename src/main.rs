@@ -1,9 +1,9 @@
 //THE MAIN.RS FILE SERVES AS THE ENTRY POINT TO THE CALCULATOR PROGRAM.
 mod calculator;  //The mod keyword brings other modules to scope in the main file.
-mod utils;
+mod logic;
 
 use calculator::calculate;  //Since those modules are now in scope, the functions in those modules can be accessed with the use keyword and a path to the function.
-use utils::{read_number, read_operator, read_continue}; //Just a another use keyword calling multiple functions to scope in a shorter form, instead of calling them one after the other.
+use logic::{read_number, read_operator, read_continue}; //Just a another use keyword calling multiple functions to scope in a shorter form, instead of calling them one after the other.
 
 fn main() {
     println!("Hello, Welcome to Rust Calculator"); //This line prints a welcome message.
