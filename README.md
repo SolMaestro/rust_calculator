@@ -4,13 +4,13 @@
 
 -------------------------------  
 
--[About the project](#-about-the-project)  
--[What's Inside?](#-what's-inside)  
--[Technologies](#-technologies)  
--[How To Run It](#-how-to-run-it)  
--[Why Is This Program Important?](#-why-is-this-program-important?)  
--[Future Updates](#-future-updates)  
--[Final Thoughts](#-final-thoughts)  
+-[ABOUT THE PROJECT](#-about-the-project)  
+-[WHAT'S INSIDE?](#-what's-inside)  
+-[TECHNOLOGIES](#-technologies)  
+-[HOW TO RUN IT](#-how-to-run-it)  
+-[WHY IS THIS PROGRAM IMPORTANT?](#-why-is-this-program-important?)  
+-[FUTURE UPDATES](#-future-updates)  
+-[FINAL THOUGHTS](#-final-thoughts)   
 
 -------------------------------  
 
