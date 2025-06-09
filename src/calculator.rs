@@ -10,6 +10,14 @@ pub fn calculate(num1: f64, num2: f64, operator: char) -> Option<f64> {    // Th
                 Some(num1 / num2)                     //If the check sees a value above 0 or 0.0, it goes ahead with the division operation and returns a Some.
             }
         }
+        '%' => {
+            if num2 == 0.0 {
+                None
+            } else {
+                Some(num1.rem_euclid(num2))          /* Since the modulo operator '%' works differently for floating point numbers than integers. 
+                                                      The modulo operation will be handled with the `rem_euclid` method which works like Rust's modulo divisor*/
+            }
+        }
         _ => None,                                  //This line returns a None if all the Some checks fails.
     } 
         }                                         //End of calculate function code block.
