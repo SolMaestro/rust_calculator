@@ -18,7 +18,7 @@ fn main() {
      loop {
 
     let num1 = read_number("Enter the first number: ");                  // Takes first value for the operation.
-    let operator = read_operator("Choose operation (+, -, *, /): ");    // Asks for the operator.
+    let operator = read_operator("Choose operation (+, -, *, /, %): ");    // Asks for the operator.
     let num2 = read_number("Enter the second number: ");                 // Takes the second value for operation.
 
     match calculate(num1, num2, operator) {                                          //Since the calculate function is now in scope, the function can be called and the required arguments passed into it.
