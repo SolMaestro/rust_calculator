@@ -25,7 +25,7 @@ pub fn read_operator(prompt: &str) -> char {                     // This functio
             }
         }
 
-        println!("Please enter a valid operator: +, -, *, /");     // If the expression above evaluates to true, Rust skips this code. If not, Rust prints this message that signifies an error i.e if the user entered letters and special characters as the operator character instead of the specified operator characters
+        println!("Please enter a valid operator: +, -, *, /, %");    // If the expression above evaluates to true, Rust skips this code. If not, Rust prints this message that signifies an error i.e if the user entered letters and special characters as the operator character instead of the specified operator characters
     }
 }                                                                  // End of read_operator block
 
